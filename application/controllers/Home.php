@@ -14,6 +14,13 @@ class Home extends CI_Controller
     function hidden () {
         $this->load->view('dashboard/index');
     }
+
+    
+    function file () {
+        $this->load->view('transport/tables');
+
+    }
+
 }
 
 
