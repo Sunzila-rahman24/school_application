@@ -1,1 +1,1 @@
-notice_board.php
+Notice_board.php
