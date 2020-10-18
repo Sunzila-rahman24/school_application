@@ -1,7 +1,4 @@
-<?php 
 
-class Classinfo extends CI_Controller
-{
     <!-- Header -->
     <div class="header bg-secondary pb-6">
       <div class="container-fluid">
