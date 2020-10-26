@@ -73,6 +73,24 @@
             </li>
 
             <li class="nav-item">
+              <a class="nav-link active" href="student">
+                <i class=""></i>
+                <span class="nav-link-text"> Student Info </span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="class_section">
+                <i class=""></i>
+                <span class="nav-link-text"> Class Info </span>
+              </a>
+            </li>
+
+
+
+            
+            
+            <li class="nav-item">
               <a class="nav-link active" href="schoolstaffs">
                 <i class=""></i>
                 <span class="nav-link-text"> School Staffs </span>
