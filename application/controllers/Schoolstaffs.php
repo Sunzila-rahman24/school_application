@@ -1,9 +1,20 @@
+
 <?php
 
 class Schoolstaffs extends CI_Controller
 {
-    function jobdetails () {
-        $this->load->view('Job Details of All Teachers and Staffs/tables');
-
+    
+    public function __construct()
+    {
+        parent::__construct();
+        //Do your magic here
     }
+
+    public function index()
+    {
+        $this->load->view('admin_master/head');
+        $this->load->view('job details of all teachers and staffs/schoolstaffs');
+        $this->load->view('admin_master/foot');
+    }
+    
 }

@@ -40,6 +40,16 @@
   <script src="assets/vendor/chart.js/dist/Chart.extension.js"></script>
   <!-- Argon JS -->
   <script src="assets/js/argon.js?v=1.2.0"></script>
+  
+<script type="text/javascript">
+  
+  $( function() {
+    $( ".date_pic" ).datepicker();
+  } );
+</script>
+
+
+
 </body>
 
 </html>
