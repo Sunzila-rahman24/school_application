@@ -80,7 +80,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" href="class_section">
+              <a class="nav-link active" href="classinfo">
                 <i class=""></i>
                 <span class="nav-link-text"> Class Info </span>
               </a>
