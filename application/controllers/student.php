@@ -17,5 +17,9 @@ class Student extends CI_Controller
         $this->load->view('student/student', $data);
         $this->load->view('admin_master/foot');
     }
+    public function add_new_student()
+    {
+        
+    }
     
 }
