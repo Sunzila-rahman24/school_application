@@ -151,7 +151,7 @@
 
     <div class="form-group">
         <label for="exam_date" class="form-control-label">Exam Date</label>
-        <input class="form-control date_pic" type="text" value="" id="exam_date" name="exam_date" placeholder="Select date">
+        <input class="form-control datep_pre" type="text" value="" id="exam_date" name="exam_date" placeholder="Select date">
 
     </div>
     
@@ -175,3 +175,19 @@
       <script>
         $('.data_table_asign').dataTable();
       </script>
+
+
+
+<script type="text/javascript">
+  
+    $('.datep_pre').datepicker({
+        dateFormat: 'dd-mm-yy',
+        maxDate: 0,
+    });
+
+    $('.datep_next').datepicker({
+        dateFormat: 'dd-mm-yy',
+        minDate: 0,
+    });
+
+</script>

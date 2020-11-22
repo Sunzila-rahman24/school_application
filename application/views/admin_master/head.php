@@ -27,20 +27,21 @@
   <!-- Argon CSS -->
   <link rel="stylesheet" href="assets/css/argon.css?v=1.2.0" type="text/css">
   <!-- Argon CSS -->
-<link rel="stylesheet" type="text/css" href="assets/jquery_ui/jquery-ui.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/jquery_ui/jquery-ui.min.css">
+
 
   <!-- jquery -->
   <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <!-- jquery -->
 
-<script src="assets/jquery_ui/jquery-ui.min.js" type="text/javascript"></script>
-
-
+  <script src="assets/jquery_ui/jquery-ui.min.js"></script>
 
 
   <!-- Datatable -->
   <script src="assets/vendor/datatables/datatables.min.js"></script>
   <!-- Datatable -->
+
 </head>
 
 <body>
