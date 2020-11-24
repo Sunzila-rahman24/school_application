@@ -65,7 +65,10 @@
                     <td><?php echo $sl; ?></td>
                     <td><?php echo $class->class_full_name; ?></td>
                     <td><?php echo $class->class_short_name; ?></td>
-                    <td><?php echo 'next';?></td>
+                    
+                    
+                    <td><button class_id="<?php echo $class->class_auto_iid; ?>" type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#editclassinfo"><i class="fa fa-edit"></i> </button></td>
+
 
                   </tr> 
 
@@ -88,7 +91,7 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="editclassinfo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
