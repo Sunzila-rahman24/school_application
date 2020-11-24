@@ -134,88 +134,88 @@ Add New Student
 
     <div class="form-group">
         <label for="student_name" class="form-control-label">Student Name</label>
-        <input class="form-control date_pic" type="text" value="" id="student_name" name="student_name" placeholder="Type student name ">
+        <input class="form-control" type="text" value="" id="student_name" name="student_name" placeholder="Type student name ">
 
     </div>
 
      <div class="form-group">
         <label for="student_address" class="form-control-label">Student Adress</label>
-        <input class="form-control date_pic" type="text" value="" id="student_address" name="student_address" placeholder="Type student address ">
+        <input class="form-control" type="text" value="" id="student_address" name="student_address" placeholder="Type student address ">
 
     </div>
 
      <div class="form-group">
         <label for="student_roll" class="form-control-label">Student Roll</label>
-        <input class="form-control date_pic" type="text" value="" id="student_roll" name="student_roll" placeholder="Type student roll no.">
+        <input class="form-control" type="text" value="" id="student_roll" name="student_roll" placeholder="Type student roll no.">
 
     </div>
 
 
      <div class="form-group">
         <label for="birth_certificate" class="form-control-label">Birth Certificate No.</label>
-        <input class="form-control date_pic" type="text" value="" id="birth_certificate" name="birth_certificate" placeholder="Type birth certificate number">
+        <input class="form-control" type="text" value="" id="birth_certificate" name="birth_certificate" placeholder="Type birth certificate number">
 
     </div>
 
 
      <div class="form-group">
         <label for="blood_group" class="form-control-label">Blood Group</label>
-        <input class="form-control date_pic" type="text" value="" id="blood_group" name="blood_group" placeholder="Type student's blood group (e.g : A+)">
+        <input class="form-control" type="text" value="" id="blood_group" name="blood_group" placeholder="Type student's blood group (e.g : A+)">
 
     </div>
 
 
      <div class="form-group">
         <label for="student_gender" class="form-control-label">Gender</label>
-        <input class="form-control date_pic" type="text" value="" id="student_gender" name="student_gender" placeholder="Type student's gender (e.g : male)">
+        <input class="form-control" type="text" value="" id="student_gender" name="student_gender" placeholder="Type student's gender (e.g : male)">
 
     </div>
 
 
      <div class="form-group">
         <label for="father_name" class="form-control-label">Father's Name</label>
-        <input class="form-control date_pic" type="text" value="" id="father_name" name="father_name" placeholder="Type father's name ">
+        <input class="form-control" type="text" value="" id="father_name" name="father_name" placeholder="Type father's name ">
 
     </div>
 
 
      <div class="form-group">
         <label for="nid_no" class="form-control-label">Father's NID No.</label>
-        <input class="form-control date_pic" type="text" value="" id="nid_no" name="nid_no" placeholder="Type father's NID no. ">
+        <input class="form-control" type="text" value="" id="nid_no" name="nid_no" placeholder="Type father's NID no. ">
 
     </div>
 
 
      <div class="form-group">
         <label for="mobile_no" class="form-control-label">Father's Mobile No.</label>
-        <input class="form-control date_pic" type="text" value="" id="nid_no" name="nid_no" placeholder="Type father's mobile number ">
+        <input class="form-control" type="text" value="" id="mobile_no" name="mobile_no" placeholder="Type father's mobile number ">
 
     </div>
 
 
      <div class="form-group">
         <label for="mail_add" class="form-control-label">Father's E-mail Address</label>
-        <input class="form-control date_pic" type="text" value="" id="mail_add" name="mail_add" placeholder="Type father's e-mail address (if any) ">
+        <input class="form-control" type="text" value="" id="mail_add" name="mail_add" placeholder="Type father's e-mail address (if any) ">
 
     </div>
 
 
      <div class="form-group">
         <label for="mother_name" class="form-control-label">Mother's Name</label>
-        <input class="form-control date_pic" type="text" value="" id="mother_name" name="mother_name" placeholder="Type mother's name">
+        <input class="form-control" type="text" value="" id="mother_name" name="mother_name" placeholder="Type mother's name">
 
     </div>
 
      <div class="form-group">
         <label for="nid_no" class="form-control-label">Mother's NID No.</label>
-        <input class="form-control date_pic" type="text" value="" id="nid_no" name="nid_no" placeholder="Type mother's NID no.">
+        <input class="form-control" type="text" value="" id="nid_no" name="nid_no" placeholder="Type mother's NID no.">
 
     </div>
 
 
      <div class="form-group">
         <label for="mobile_no" class="form-control-label">Mother's Mobile No.</label>
-        <input class="form-control date_pic" type="text" value="" id="nid_no" name="nid_no" placeholder="Type mother's mobile no.">
+        <input class="form-control" type="text" value="" id="mobile_no" name="mobile_no" placeholder="Type mother's mobile no.">
 
     </div>
 
@@ -228,7 +228,7 @@ Add New Student
 
      <div class="form-group">
         <label for="local_guardian" class="form-control-label">Local Guardian name </label>
-        <input class="form-control date_pic" type="text" value="" id="local_guardian" name="local_guardian" placeholder="Type local guardian's name (in absence of parents)">
+        <input class="form-control" type="text" value="" id="local_guardian" name="local_guardian" placeholder="Type local guardian's name (in absence of parents)">
 
     </div>
 
@@ -253,21 +253,19 @@ Add New Student
     </div>
 
 
-
-    
-</form>
-
-
 <!--form end-->
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="reset" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </div>
+      </form>
+
     </div>
   </div>
 </div>
+
 
 
 
@@ -289,121 +287,121 @@ Add New Student
 
     <div class="form-group">
         <label for="student_name" class="form-control-label">Student Name</label>
-        <input class="form-control date_pic" type="text" value="" id="student_name" name="student_name" placeholder="Type student name ">
+        <input class="form-control" type="text" value="" id="student_name" name="student_name" placeholder="Type student name ">
 
     </div>
 
      <div class="form-group">
         <label for="student_address" class="form-control-label">Student Adress</label>
-        <input class="form-control date_pic" type="text" value="" id="student_address" name="student_address" placeholder="Type student address ">
+        <input class="form-control" type="text" value="" id="student_address" name="student_address" placeholder="Type student address ">
 
     </div>
 
      <div class="form-group">
         <label for="student_roll" class="form-control-label">Student Roll</label>
-        <input class="form-control date_pic" type="text" value="" id="student_roll" name="student_roll" placeholder="Type student roll no.">
+        <input class="form-control" type="text" value="" id="student_roll" name="student_roll" placeholder="Type student roll no.">
 
     </div>
 
 
      <div class="form-group">
         <label for="birth_certificate" class="form-control-label">Birth Certificate No.</label>
-        <input class="form-control date_pic" type="text" value="" id="birth_certificate" name="birth_certificate" placeholder="Type birth certificate number">
+        <input class="form-control" type="text" value="" id="birth_certificate" name="birth_certificate" placeholder="Type birth certificate number">
 
     </div>
 
 
      <div class="form-group">
         <label for="blood_group" class="form-control-label">Blood Group</label>
-        <input class="form-control date_pic" type="text" value="" id="blood_group" name="blood_group" placeholder="Type student's blood group (e.g : A+)">
+        <input class="form-control" type="text" value="" id="blood_group" name="blood_group" placeholder="Type student's blood group (e.g : A+)">
 
     </div>
 
 
      <div class="form-group">
         <label for="student_gender" class="form-control-label">Gender</label>
-        <input class="form-control date_pic" type="text" value="" id="student_gender" name="student_gender" placeholder="Type student's gender (e.g : male)">
+        <input class="form-control" type="text" value="" id="student_gender" name="student_gender" placeholder="Type student's gender (e.g : male)">
 
     </div>
 
 
      <div class="form-group">
         <label for="father_name" class="form-control-label">Father's Name</label>
-        <input class="form-control date_pic" type="text" value="" id="father_name" name="father_name" placeholder="Type father's name ">
+        <input class="form-control" type="text" value="" id="father_name" name="father_name" placeholder="Type father's name ">
 
     </div>
 
 
      <div class="form-group">
         <label for="nid_no" class="form-control-label">Father's NID No.</label>
-        <input class="form-control date_pic" type="text" value="" id="nid_no" name="nid_no" placeholder="Type father's NID no. ">
+        <input class="form-control" type="text" value="" id="nid_no" name="nid_no" placeholder="Type father's NID no. ">
 
     </div>
 
 
      <div class="form-group">
         <label for="mobile_no" class="form-control-label">Father's Mobile No.</label>
-        <input class="form-control date_pic" type="text" value="" id="nid_no" name="nid_no" placeholder="Type father's mobile number ">
+        <input class="form-control" type="text" value="" id="nid_no" name="nid_no" placeholder="Type father's mobile number ">
 
     </div>
 
 
      <div class="form-group">
         <label for="mail_add" class="form-control-label">Father's E-mail Address</label>
-        <input class="form-control date_pic" type="text" value="" id="mail_add" name="mail_add" placeholder="Type father's e-mail address (if any) ">
+        <input class="form-control" type="text" value="" id="mail_add" name="mail_add" placeholder="Type father's e-mail address (if any) ">
 
     </div>
 
 
      <div class="form-group">
         <label for="mother_name" class="form-control-label">Mother's Name</label>
-        <input class="form-control date_pic" type="text" value="" id="mother_name" name="mother_name" placeholder="Type mother's name">
+        <input class="form-control" type="text" value="" id="mother_name" name="mother_name" placeholder="Type mother's name">
 
     </div>
 
      <div class="form-group">
         <label for="nid_no" class="form-control-label">Mother's NID No.</label>
-        <input class="form-control date_pic" type="text" value="" id="nid_no" name="nid_no" placeholder="Type mother's NID no.">
+        <input class="form-control" type="text" value="" id="nid_no" name="nid_no" placeholder="Type mother's NID no.">
 
     </div>
 
 
      <div class="form-group">
         <label for="mobile_no" class="form-control-label">Mother's Mobile No.</label>
-        <input class="form-control date_pic" type="text" value="" id="nid_no" name="nid_no" placeholder="Type mother's mobile no.">
+        <input class="form-control" type="text" value="" id="nid_no" name="nid_no" placeholder="Type mother's mobile no.">
 
     </div>
 
 
      <div class="form-group">
         <label for="mail_add" class="form-control-label">Mother's E-mail Address</label>
-        <input class="form-control date_pic" type="text" value="" id="mail_add" name="mail_add" placeholder="Type mother's e-mail address (if any) ">
+        <input class="form-control" type="text" value="" id="mail_add" name="mail_add" placeholder="Type mother's e-mail address (if any) ">
 
     </div>
 
      <div class="form-group">
         <label for="local_guardian" class="form-control-label">Local Guardian name </label>
-        <input class="form-control date_pic" type="text" value="" id="local_guardian" name="local_guardian" placeholder="Type local guardian's name (in absence of parents)">
+        <input class="form-control" type="text" value="" id="local_guardian" name="local_guardian" placeholder="Type local guardian's name (in absence of parents)">
 
     </div>
 
 
      <div class="form-group">
         <label for="guardian_relation" class="form-control-label">Relation with Local Guardian</label>
-        <input class="form-control date_pic" type="text" value="" id="guardian_relation" name="guardian_relation" placeholder="Type relation (e.g : Uncle )">
+        <input class="form-control" type="text" value="" id="guardian_relation" name="guardian_relation" placeholder="Type relation (e.g : Uncle )">
 
     </div>
 
 
      <div class="form-group">
         <label for="nid_no" class="form-control-label">Local Guardian's NID No.</label>
-        <input class="form-control date_pic" type="text" value="" id="nid_no" name="nid_no" placeholder="Type NID no.">
+        <input class="form-control" type="text" value="" id="nid_no" name="nid_no" placeholder="Type NID no.">
 
     </div>
 
      <div class="form-group">
         <label for="mobile_no" class="form-control-label">Mobile Number</label>
-        <input class="form-control date_pic" type="text" value="" id="mobile_no" name="mobile_no" placeholder="Type mobile number">
+        <input class="form-control" type="text" value="" id="mobile_no" name="mobile_no" placeholder="Type mobile number">
 
     </div>
 

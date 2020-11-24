@@ -15,5 +15,13 @@ class Student_model extends CI_Model
     	$std = $this->db->get('student_info');
     	return $std->result();
     }
-    
+
+
+  
+  public function new_student_add($data)
+  {
+  	$this->db->insert('student_info', $data);
+ 
+  }
+
 }

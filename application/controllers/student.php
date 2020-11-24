@@ -37,7 +37,30 @@ class Student extends CI_Controller
         $guardian_relation = $this->input->post('guardian_relation');
         $nid_no = $this->input->post('nid_no');
         $mobile_no = $this->input->post('mobile_no');
-        
+
+
+        $data = array(
+            'student_name' => $student_name,
+            'student_address' => $student_address, 
+            'student_roll' => $student_roll,  
+            'birth_certificate_no' =>  $birth_certificate, 
+            'blood_group' => $blood_group, 
+            'father_name' => $father_name, 
+            'fathers_mobile_no' => $mobile_no, 
+            'fathers_NID_no' =>  $nid_no, 
+            'mother_name' => $mother_name, 
+            'mothers_mobile_no' =>  $mobile_no,
+            'mothers_NID_no' => $nid_no , 
+            'local_guardian_name' => $local_guardian,
+            'relation_with_lg' => $guardian_relation ,
+            'lg_mobile_no' => $mobile_no,
+            'lg_NID_no' => $nid_no ,
+
+        ); 
+
+      $this->Student_model->new_student_add($data);
+      redirect('student');
+
 
     }
     

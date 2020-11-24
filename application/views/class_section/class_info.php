@@ -15,10 +15,6 @@
                 </ol>
               </nav>
             </div>
-            <!-- <div class="col-lg-6 col-5 text-right">
-              <a href="#" class="btn btn-sm btn-neutral">New</a>
-              <a href="#" class="btn btn-sm btn-neutral">Filters</a>
-            </div> -->
           </div>
         </div>
       </div>
@@ -28,7 +24,7 @@
 
 
       <!-- Button trigger modal -->
-<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addclassinfo">
   Add New Class
 </button>
 
@@ -91,11 +87,11 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="editclassinfo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="addclassinfo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Class</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true"> &times; </span>
         </button>
@@ -104,7 +100,9 @@
        
 <!-- form sart-->
 
-<form action="" method="post" enctype="">
+<form action="class" method="post" enctype="">
+
+
     <div class="form-group">
         <label for="class_name" class="form-control-label">Class full name</label>
         <input class="form-control" type="text" value="" id="class_name" name="class_name" placeholder=" Type class full name (e.g : one)">
@@ -125,9 +123,54 @@
 
 
 
-
-
 <!--form end-->
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Edit class-->
+
+<div class="modal fade" id="editclassinfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<form action="" method="post" enctype="">
+    <div class="form-group">
+        <label for="class_name" class="form-control-label">Class full name</label>
+        <input class="form-control" type="text" value="" id="class_name" name="class_name" placeholder=" Type class full name (e.g : one)">
+
+    </div>
+
+
+    <div class="form-group">
+        <label for="class_shortname" class="form-control-label">Class short name</label>
+        <input class="form-control" type="text" value="" id="class_shortname" name="class_shortname" placeholder=" Type class short name (e.g : 1st)">
+
+    </div>
+
+
+
+
+</form>
+ 
+      
+<!-- Edit class-->
 
 
       </div>
