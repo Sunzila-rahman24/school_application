@@ -16,5 +16,11 @@ class Classinfo_model extends CI_Model
     	return $sql->result();
     }
     
+
+  public function new_class_add($data)
+  {
+  	$this->db->insert('class', $data);
+ 
+  }
 }
 

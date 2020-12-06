@@ -100,7 +100,7 @@
        
 <!-- form sart-->
 
-<form action="class" method="post" enctype="">
+<form action="classinfo/add_new_class" method="post" enctype="">
 
 
     <div class="form-group">
@@ -119,21 +119,23 @@
 
 
 
-</form>
 
 
 
-<!--form end-->
 
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="reset" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </div>
+      </form>
     </div>
   </div>
 </div>
+
+
+<!--form end-->
 
 
 

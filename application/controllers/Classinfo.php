@@ -14,10 +14,23 @@ class Classinfo extends CI_Controller
     {
         $data['all_class'] = $this->classinfo_model->get_all_class();
         $this->load->view('admin_master/head');
-        $this->load->view('class_section/class_info', $data);
+        $this->load->view('class_section/class_info',$data);
         $this->load->view('admin_master/foot');
 
     }
+    public function add_new_class()
+    {
+        $class_name = $this->input->post('class_name');
+        $class_shortname = $this->input->post('class_shortname');
 
+
+        $data = array(
+            'class_full_name' => $class_name,
+            'class_short_name' => $class_shortname,
+            );
+    
+      $this->classinfo_model->new_class_add($data);
+      redirect('classinfo');
+    }
     
 }
