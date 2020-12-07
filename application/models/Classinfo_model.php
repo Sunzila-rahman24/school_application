@@ -22,5 +22,11 @@ class Classinfo_model extends CI_Model
   	$this->db->insert('class', $data);
  
   }
+  public function edit_class($edit_class)
+  {
+  		$this->db->where('class_auto_iid', $edit_class);
+ 	    $sql = $this->db->get('class');
+    	return $sql->row();
+  }
 }
 

@@ -63,7 +63,7 @@
                     <td><?php echo $class->class_short_name; ?></td>
                     
                     
-                    <td><button class_id="<?php echo $class->class_auto_iid; ?>" type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#editclassinfo"><i class="fa fa-edit"></i> </button></td>
+                    <td><button  class_id="<?php echo $class->class_auto_iid; ?>" type="button" class="btn btn-primary btn-sm class_edit_btn" data-toggle="modal" data-target="#editclassinfo"><i class="fa fa-edit"></i> </button></td>
 
 
                   </tr> 
@@ -117,13 +117,6 @@
     </div>
 
 
-
-
-
-
-
-
-
       </div>
       <div class="modal-footer">
         <button type="reset" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -145,7 +138,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel"> Edit Class Form </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -155,14 +148,14 @@
 <form action="" method="post" enctype="">
     <div class="form-group">
         <label for="class_name" class="form-control-label">Class full name</label>
-        <input class="form-control" type="text" value="" id="class_name" name="class_name" placeholder=" Type class full name (e.g : one)">
+        <input class="form-control form_class_fname" type="text" value="" id="class_name" name="class_name" placeholder=" Type class full name (e.g : one)">
 
     </div>
 
 
     <div class="form-group">
         <label for="class_shortname" class="form-control-label">Class short name</label>
-        <input class="form-control" type="text" value="" id="class_shortname" name="class_shortname" placeholder=" Type class short name (e.g : 1st)">
+        <input class="form-control form_class_sname" type="text" value="" id="class_shortname" name="class_shortname" placeholder=" Type class short name (e.g : 1st)">
 
     </div>
 
@@ -190,5 +183,26 @@
 
 
       <script>
+        $('.class_edit_btn').click(function () {
+          var edit_class = $(this).attr('class_id');
+          $.ajax({
+            url: 'classinfo/edit_class_form?class_id='+ edit_class,
+            method: 'GET',
+            data: '',
+            datatype: 'json',
+            success: function(edit_class_data) {
+
+console.log(edit_class_data);
+console.log(edit_class_data.class_full_name);
+console.log(class_full_name);
+
+            $('.form_class_fname').val(edit_class_data.class_full_name);
+            $('.form_class_sname').val(edit_class_data.class_short_name);
+
+            }
+          })
+        })
+
+
         $('.data_table_asign').dataTable();
       </script>

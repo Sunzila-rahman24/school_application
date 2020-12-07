@@ -421,4 +421,5 @@ Add New Student
 
       <script>
         $('.data_table_asign').dataTable();
+        
       </script>
