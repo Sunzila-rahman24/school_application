@@ -60,8 +60,13 @@ class Student extends CI_Controller
 
       $this->Student_model->new_student_add($data);
       redirect('student');
+    }
 
-
+    public function edit_student_form()
+    {
+       $edit_student = $this->input->get('student_id');
+       $data = $this->student_model->edit_student($edit_student);
+       echo json_encode($data);
     }
     
 }

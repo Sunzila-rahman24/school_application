@@ -63,7 +63,7 @@
                     <td><?php echo $class->class_short_name; ?></td>
                     
                     
-                    <td><button  class_id="<?php echo $class->class_auto_iid; ?>" type="button" class="btn btn-primary btn-sm class_edit_btn" data-toggle="modal" data-target="#editclassinfo"><i class="fa fa-edit"></i> </button></td>
+                    <td><a href="classinfo/edit_class_button?class_id=<?php echo $class->class_auto_iid; ?>" class_id="<?php echo $class->class_auto_iid; ?>" type="button" class="btn btn-primary btn-sm class_edit_btn"><i class="fa fa-edit"></i> </a></td>
 
 
                   </tr> 
@@ -163,6 +163,7 @@
 
 
 </form>
+
  
       
 <!-- Edit class-->

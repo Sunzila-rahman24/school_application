@@ -32,10 +32,19 @@ class Classinfo extends CI_Controller
       $this->classinfo_model->new_class_add($data);
       redirect('classinfo');
     }
+
     public function edit_class_form()
     {
        $edit_class = $this->input->get('class_id');
        $data = $this->classinfo_model->edit_class($edit_class);
        echo json_encode($data);
+    }
+    
+    public function edit_class_button()
+    {
+        $edit_class = $this->input->get('class_id');
+        $data['class_i'] = $this->classinfo_model->edit_class($edit_class);
+        $this->load->view('class_section/edit_class',$data);
+        
     }
 }
